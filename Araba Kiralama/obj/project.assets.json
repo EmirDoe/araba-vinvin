@@ -477,11 +477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emird\\source\\repos\\Araba Kiralama\\Araba Kiralama\\Araba Kiralama.csproj",
+      "projectUniqueName": "C:\\Users\\emird\\source\\repos\\Araba Kiralama - Kopya\\Araba Kiralama\\Araba Kiralama.csproj",
       "projectName": "Araba Kiralama",
-      "projectPath": "C:\\Users\\emird\\source\\repos\\Araba Kiralama\\Araba Kiralama\\Araba Kiralama.csproj",
+      "projectPath": "C:\\Users\\emird\\source\\repos\\Araba Kiralama - Kopya\\Araba Kiralama\\Araba Kiralama.csproj",
       "packagesPath": "C:\\Users\\emird\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emird\\source\\repos\\Araba Kiralama\\Araba Kiralama\\obj\\",
+      "outputPath": "C:\\Users\\emird\\source\\repos\\Araba Kiralama - Kopya\\Araba Kiralama\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

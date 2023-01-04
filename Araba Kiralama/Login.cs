@@ -48,20 +48,38 @@ namespace Araba_Kiralama
             if (username_textbox.Text != string.Empty && password_textbox.Text != string.Empty)
             {
                 cnn.Open();
-                cmd = new SqlCommand("SELECT * FROM customer WHERE user_name='" + username_textbox.Text + "' AND password='" + password_textbox.Text + "'", cnn);
+                cmd = new SqlCommand("SELECT * FROM user WHERE user_name='" + username_textbox.Text + "' AND password='" + password_textbox.Text + "'", cnn);
                 dr = cmd.ExecuteReader();
+               
                 if (dr.Read())
                 {
+                    
                     dr.Close();
                     this.Hide();
+                        
+                    cmd = new SqlCommand("SELECT user_role FROM user WHERE user_name='" + username_textbox.Text + "' ", cnn);
+                    dr = cmd.ExecuteReader();
+
+                    if (dr.Read())
+                    {
+                        bool user_role = dr.GetBoolean(0);
+                        MessageBox.Show(user_role.ToString());
+                    }
+
                     Home home = new Home();
                     home.ShowDialog();
+
+
                 }
                 else
                 {
                     dr.Close();
                     MessageBox.Show("Hatalı şifre veya kullanıcı adı girdiniz ", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+
+               
+
+             
                 cnn.Close();
             }
             else
@@ -75,4 +93,5 @@ namespace Araba_Kiralama
 
         }
     }
+
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t+jlGj6CkDOgEsNGtH10UgXa3MB3HFMdbczr22plcgk8tKgX2odGQjYb+PSe6y00tE//vkpeCFkv4GyWqB6aNw==",
+  "dgSpecHash": "Z93XZW1ZwYdHsGJ9fU7V3YUyUpDeQ2HOKYo/b1lhH56iVelAbgd+Qt/XGK1OmV3zlYtef64Tbg5/RPkkLaZ7Dg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emird\\source\\repos\\Araba Kiralama\\Araba Kiralama\\Araba Kiralama.csproj",
+  "projectFilePath": "C:\\Users\\emird\\source\\repos\\Araba Kiralama - Kopya\\Araba Kiralama\\Araba Kiralama.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emird\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\emird\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
