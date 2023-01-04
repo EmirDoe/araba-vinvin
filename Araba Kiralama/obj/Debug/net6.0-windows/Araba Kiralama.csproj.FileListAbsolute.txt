@@ -1,0 +1,28 @@
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.AssemblyReference.cache
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Login.resources
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Register.resources
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.GenerateResource.cache
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.AssemblyInfoInputs.cache
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.AssemblyInfo.cs
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.CoreCompileInputs.cache
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.exe
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.deps.json
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.runtimeconfig.json
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.dll
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.pdb
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.dll
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\refint\Araba Kiralama.dll
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.pdb
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.genruntimeconfig.cache
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\ref\Araba Kiralama.dll
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.CopyComplete
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Form1.resources
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Home.resources
+C:\Users\emird\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.araba.resources
