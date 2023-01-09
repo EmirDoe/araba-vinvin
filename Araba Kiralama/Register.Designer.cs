@@ -260,17 +260,18 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(215, 292);
+            this.button3.Location = new System.Drawing.Point(214, 292);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(129, 28);
+            this.button3.Size = new System.Drawing.Size(130, 28);
             this.button3.TabIndex = 8;
             this.button3.Text = "Geri";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button2_Click);
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Register
             // 
             this.ClientSize = new System.Drawing.Size(407, 341);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.bday_date);
             this.Controls.Add(this.phone_textbox);
@@ -284,7 +285,6 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Name = "Register";
             this.Load += new System.EventHandler(this.Register_Load);

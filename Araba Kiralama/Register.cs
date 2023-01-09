@@ -46,7 +46,7 @@ namespace Araba_Kiralama
             {
                 cnn.Open();
 
-                cmd = new SqlCommand("select * from user where user_name='" + username_reg_textbox.Text + "'", cnn);
+                cmd = new SqlCommand("select * from [user] where user_name='" + username_reg_textbox.Text + "'", cnn);
                 dr = cmd.ExecuteReader();
                 if (dr.Read())
                 {
@@ -57,7 +57,7 @@ namespace Araba_Kiralama
                 else
                 {
                     dr.Close();
-                    cmd = new SqlCommand("INSERT INTO user VALUES('" + tc_textbox.Text + "', '" + username_reg_textbox.Text + "', '" + password_reg_textbox.Text + "', '" + 0 + "', '" + name_textbox.Text + "' , '" + bday_date.Value.ToString() + "', '" + phone_textbox.Text + "',  '" + null + "')", cnn);
+                    cmd = new SqlCommand("INSERT INTO [user] VALUES('" + tc_textbox.Text + "', '" + username_reg_textbox.Text + "', '" + password_reg_textbox.Text + "', '" + 0 + "', '" + name_textbox.Text + "' , '" + bday_date.Value.ToString() + "', '" + phone_textbox.Text + "',  '" + null + "')", cnn);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Hesabınız oluşturuldu, giriş yapabilirsiniz.", "Başarılı", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
@@ -83,6 +83,11 @@ namespace Araba_Kiralama
         private void textBox6_KeyPress(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

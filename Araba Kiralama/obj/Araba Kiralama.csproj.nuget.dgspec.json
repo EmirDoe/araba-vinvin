@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emird\\source\\repos\\Araba Kiralama - Kopya\\Araba Kiralama\\Araba Kiralama.csproj": {}
+    "C:\\Users\\emird\\OneDrive\\Masaüstü\\Yeni klasör\\Araba Kiralama-v31\\Araba Kiralama\\Araba Kiralama.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emird\\source\\repos\\Araba Kiralama - Kopya\\Araba Kiralama\\Araba Kiralama.csproj": {
+    "C:\\Users\\emird\\OneDrive\\Masaüstü\\Yeni klasör\\Araba Kiralama-v31\\Araba Kiralama\\Araba Kiralama.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emird\\source\\repos\\Araba Kiralama - Kopya\\Araba Kiralama\\Araba Kiralama.csproj",
+        "projectUniqueName": "C:\\Users\\emird\\OneDrive\\Masaüstü\\Yeni klasör\\Araba Kiralama-v31\\Araba Kiralama\\Araba Kiralama.csproj",
         "projectName": "Araba Kiralama",
-        "projectPath": "C:\\Users\\emird\\source\\repos\\Araba Kiralama - Kopya\\Araba Kiralama\\Araba Kiralama.csproj",
+        "projectPath": "C:\\Users\\emird\\OneDrive\\Masaüstü\\Yeni klasör\\Araba Kiralama-v31\\Araba Kiralama\\Araba Kiralama.csproj",
         "packagesPath": "C:\\Users\\emird\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emird\\source\\repos\\Araba Kiralama - Kopya\\Araba Kiralama\\obj\\",
+        "outputPath": "C:\\Users\\emird\\OneDrive\\Masaüstü\\Yeni klasör\\Araba Kiralama-v31\\Araba Kiralama\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,13 +44,17 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "Guna.UI2.WinForms": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.5, )"
             },
-            "runtime.native.System.Data.SqlClient.sni": {
+            "iTextSharp": {
               "target": "Package",
-              "version": "[4.7.0, )"
+              "version": "[5.5.13.3, )"
             }
           },
           "imports": [

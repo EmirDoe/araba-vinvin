@@ -54,3 +54,164 @@ C:\Users\emird\source\repos\Araba Kiralama - Kopya\Araba Kiralama\obj\Debug\net6
 C:\Users\emird\source\repos\Araba Kiralama - Kopya\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.pdb
 C:\Users\emird\source\repos\Araba Kiralama - Kopya\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.genruntimeconfig.cache
 C:\Users\emird\source\repos\Araba Kiralama - Kopya\Araba Kiralama\obj\Debug\net6.0-windows\ref\Araba Kiralama.dll
+C:\Users\emird\source\repos\Araba Kiralama - Kopya\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.kiralama.resources
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.exe
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.deps.json
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.runtimeconfig.json
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.dll
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.pdb
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.AssemblyReference.cache
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.araba.resources
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Form1.resources
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Home.resources
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.kiralama.resources
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Login.resources
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Register.resources
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.GenerateResource.cache
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.AssemblyInfoInputs.cache
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.AssemblyInfo.cs
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.CoreCompileInputs.cache
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.CopyComplete
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.dll
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\refint\Araba Kiralama.dll
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.pdb
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.genruntimeconfig.cache
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\ref\Araba Kiralama.dll
+C:\Users\Kaan\source\repos\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.musteri_duzenleme.resources
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.exe
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.deps.json
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.runtimeconfig.json
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.dll
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.pdb
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.AssemblyReference.cache
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.araba.resources
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Form1.resources
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Home.resources
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.kiralama.resources
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Login.resources
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.musteri_duzenleme.resources
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Register.resources
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.GenerateResource.cache
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.AssemblyInfoInputs.cache
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.AssemblyInfo.cs
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.CoreCompileInputs.cache
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.CopyComplete
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.dll
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\refint\Araba Kiralama.dll
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.pdb
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.genruntimeconfig.cache
+C:\Users\emird\OneDrive\Masaüstü\araba\kaan\Araba Kiralama\Araba Kiralama\obj\Debug\net6.0-windows\ref\Araba Kiralama.dll
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.exe
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.deps.json
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.runtimeconfig.json
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.dll
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.pdb
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.AssemblyReference.cache
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.araba.resources
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.fatura_duzenleme.resources
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Form1.resources
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Home.resources
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.kiralama.resources
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Login.resources
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.musteri_duzenleme.resources
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Register.resources
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.GenerateResource.cache
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.AssemblyInfoInputs.cache
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.AssemblyInfo.cs
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.CoreCompileInputs.cache
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.CopyComplete
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.dll
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\refint\Araba Kiralama.dll
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.pdb
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.genruntimeconfig.cache
+C:\Users\Kaan\source\repos\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\ref\Araba Kiralama.dll
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.exe
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.deps.json
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.runtimeconfig.json
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.dll
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.pdb
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.AssemblyReference.cache
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.araba.resources
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.fatura_duzenleme.resources
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Form1.resources
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Home.resources
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.kiralama.resources
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Login.resources
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.musteri_duzenleme.resources
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Register.resources
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.GenerateResource.cache
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.AssemblyInfoInputs.cache
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.AssemblyInfo.cs
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.CoreCompileInputs.cache
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.CopyComplete
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.dll
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\refint\Araba Kiralama.dll
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.pdb
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.genruntimeconfig.cache
+C:\Users\emird\OneDrive\Masaüstü\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\ref\Araba Kiralama.dll
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.exe
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.deps.json
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.runtimeconfig.json
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.dll
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\Araba Kiralama.pdb
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.AssemblyReference.cache
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Home.resources
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Login.resources
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Register.resources
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.GenerateResource.cache
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.AssemblyInfoInputs.cache
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.AssemblyInfo.cs
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.CoreCompileInputs.cache
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.csproj.CopyComplete
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.dll
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\refint\Araba Kiralama.dll
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.pdb
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba Kiralama.genruntimeconfig.cache
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\ref\Araba Kiralama.dll
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.Resource1.resources
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.customer_edit.resources
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.invoice_edit.resources
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.reservation.resources
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.car_new.resources
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\bin\Debug\net6.0-windows\itextsharp.dll
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.invoice.resources
+C:\Users\emird\OneDrive\Masaüstü\Yeni klasör\Araba Kiralama-v31\Araba Kiralama\obj\Debug\net6.0-windows\Araba_Kiralama.my_reservations.resources

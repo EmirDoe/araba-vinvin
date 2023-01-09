@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,52 +25,43 @@ namespace Araba_Kiralama
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        public static string Session = "";
+        public string GetSession()
         {
-          
+            return Session;
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            new Register().Show();
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void login_button_Click(object sender, EventArgs e)
         {
             string connetionString;
-      
+
+
             connetionString = "Server=localhost;Database=master; Trusted_Connection=True;";
             cnn = new SqlConnection(connetionString);
 
             if (username_textbox.Text != string.Empty && password_textbox.Text != string.Empty)
             {
+                Session = username_textbox.Text;
                 cnn.Open();
-                cmd = new SqlCommand("SELECT * FROM user WHERE user_name='" + username_textbox.Text + "' AND password='" + password_textbox.Text + "'", cnn);
+                cmd = new SqlCommand("SELECT * FROM [user] WHERE user_name='" + username_textbox.Text + "' AND password='" + password_textbox.Text + "'", cnn);
                 dr = cmd.ExecuteReader();
-               
+
                 if (dr.Read())
                 {
-                    
+
                     dr.Close();
                     this.Hide();
-                        
-                    cmd = new SqlCommand("SELECT user_role FROM user WHERE user_name='" + username_textbox.Text + "' ", cnn);
+
+                    cmd = new SqlCommand("SELECT user_role FROM [user] WHERE user_name='" + username_textbox.Text + "' ", cnn);
                     dr = cmd.ExecuteReader();
 
                     if (dr.Read())
                     {
                         bool user_role = dr.GetBoolean(0);
-                        MessageBox.Show(user_role.ToString());
+
+                        Home home = new Home(user_role.ToString());
+                        home.ShowDialog();
                     }
-
-                    Home home = new Home();
-                    home.ShowDialog();
-
 
                 }
                 else
@@ -77,9 +70,9 @@ namespace Araba_Kiralama
                     MessageBox.Show("Hatalı şifre veya kullanıcı adı girdiniz ", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
-               
 
-             
+
+
                 cnn.Close();
             }
             else
@@ -88,8 +81,23 @@ namespace Araba_Kiralama
             }
         }
 
-        private void username_TextChanged(object sender, EventArgs e)
+        private void register_button_Click(object sender, EventArgs e)
         {
+            new Register().Show();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            PrivateFontCollection Font = new PrivateFontCollection();
+            Font.AddFontFile("Inter-SemiBold.ttf");
+            foreach (Control item in this.Controls)
+            {
+                item.Font = new Font(Font.Families[0], 9, FontStyle.Regular);
+            }
+            username_textbox.Location = new Point(75, 149);
+            password_textbox.Location = new Point(75, 193);
+            password_textbox.Size = new Size(210, 33);
+            username_textbox.Size = new Size(210, 33);
 
         }
     }
