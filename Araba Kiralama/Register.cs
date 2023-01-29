@@ -21,11 +21,6 @@ namespace Araba_Kiralama
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Register_Load(object sender, EventArgs e)
         {
 
@@ -68,21 +63,6 @@ namespace Araba_Kiralama
             {
                 MessageBox.Show("Lütfen bütün alanları doldurduğunuzdan emin olun ", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
-
-        private void textBox7_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox6_KeyPress(object sender, EventArgs e)
-        {
-
         }
 
         private void button3_Click(object sender, EventArgs e)

@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +24,15 @@ namespace Araba_Kiralama
         public customer_edit()
         {
             InitializeComponent();
+        }
+        public DataTable list(SqlDataAdapter adtr, string query)
+        {
+            SqlConnection conectionString = new SqlConnection("Server=localhost;Database=master; Trusted_Connection=True;");
+            DataTable dt = new DataTable();
+            adtr = new SqlDataAdapter(query, conectionString);
+            adtr.Fill(dt);
+            conectionString.Close();
+            return dt;
         }
         private void customer_edit_Load(object sender, EventArgs e)
         {
@@ -55,8 +66,8 @@ namespace Araba_Kiralama
             dataGridView1.Columns["full_name"].HeaderText = "Ad Soyad";
             dataGridView1.Columns["birth_date"].HeaderText = "Doğum Tarihi";
             dataGridView1.Columns["phone_number"].HeaderText = "Telefon Numarası";
-
             cnn.Close();
+
         }
         private void update_button_Click(object sender, EventArgs e)
         {
@@ -128,24 +139,12 @@ namespace Araba_Kiralama
                 phone_textbox.Text = "";
             }
         }
-        private void user_textbox_TextChanged(object sender, EventArgs e)
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
-        }
-
-        private void tc_text_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void arama_textbox_TextChanged(object sender, EventArgs e)
-        {
-            //string cumle = "select * from [user] WHERE tc_no like '%" + arama_textbox.Text+ "%'";
-           // string cumle = "select tc_no,user_name,password,full_name,birth_date,phone_number from [user] WHERE (user_role = 0) AND tc_no like '%" + arama_textbox.Text + "%'";
+            string cmd = "select tc_no,user_name,password,full_name,birth_date,phone_number from [user] WHERE (user_role = 0) AND tc_no like '%" + textBox1.Text + "%'";
             SqlDataAdapter adtr2 = new SqlDataAdapter();
-            //dataGridView1.DataSource = listele(adtr2, cumle);
-        }
-
-       
+            dataGridView1.DataSource = list(adtr2, cmd);
+        }     
     }
 }

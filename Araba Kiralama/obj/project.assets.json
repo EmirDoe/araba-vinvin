@@ -656,11 +656,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emird\\OneDrive\\Masaüstü\\Yeni klasör\\Araba Kiralama-v31\\Araba Kiralama\\VinVin.csproj",
+      "projectUniqueName": "C:\\Users\\emird\\OneDrive\\Masaüstü\\VinVin\\v2\\VinVin\\VinVin-v1.0.4\\Araba Kiralama\\VinVin.csproj",
       "projectName": "VinVin",
-      "projectPath": "C:\\Users\\emird\\OneDrive\\Masaüstü\\Yeni klasör\\Araba Kiralama-v31\\Araba Kiralama\\VinVin.csproj",
+      "projectPath": "C:\\Users\\emird\\OneDrive\\Masaüstü\\VinVin\\v2\\VinVin\\VinVin-v1.0.4\\Araba Kiralama\\VinVin.csproj",
       "packagesPath": "C:\\Users\\emird\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emird\\OneDrive\\Masaüstü\\Yeni klasör\\Araba Kiralama-v31\\Araba Kiralama\\obj\\",
+      "outputPath": "C:\\Users\\emird\\OneDrive\\Masaüstü\\VinVin\\v2\\VinVin\\VinVin-v1.0.4\\Araba Kiralama\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

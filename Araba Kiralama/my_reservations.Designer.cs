@@ -144,9 +144,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(12, 286);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(177, 21);
+            this.label2.Size = new System.Drawing.Size(201, 21);
             this.label2.TabIndex = 18;
-            this.label2.Text = "Geçmiş Rezervasyonlar";
+            this.label2.Text = "Geçmiş Rezervasyonlarınız";
             // 
             // label1
             // 
@@ -156,9 +156,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(12, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(159, 21);
+            this.label1.Size = new System.Drawing.Size(183, 21);
             this.label1.TabIndex = 19;
-            this.label1.Text = "Aktif Rezervasyonlar";
+            this.label1.Text = "Aktif Rezervasyonlarınız";
             // 
             // my_reservations
             // 

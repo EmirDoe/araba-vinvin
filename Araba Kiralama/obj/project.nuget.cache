@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NLN5jh1FHpLOuUqXYB6RGwi4U7zSnqUzJFfnnsUjbVnoql+3vy03CvamRo4U3NDX7Jvtk3cEjE+VqpJoO9edUQ==",
+  "dgSpecHash": "eXMZ3FAbrpZXN+gQ+WbgUq/0wESFZ7h1chMf6XriaUtPZewU3cc1iuI6wV7Qm92Fp+BFy9HCToosoHwxN0drcw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emird\\OneDrive\\Masaüstü\\Yeni klasör\\Araba Kiralama-v31\\Araba Kiralama\\VinVin.csproj",
+  "projectFilePath": "C:\\Users\\emird\\OneDrive\\Masaüstü\\VinVin\\v2\\VinVin\\VinVin-v1.0.4\\Araba Kiralama\\VinVin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emird\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\emird\\.nuget\\packages\\guna.ui2.winforms\\2.0.4\\guna.ui2.winforms.2.0.4.nupkg.sha512",

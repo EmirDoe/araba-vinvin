@@ -66,10 +66,10 @@
             this.reservation_edit = new Guna.UI2.WinForms.Guna2Button();
             this.customer_edit = new Guna.UI2.WinForms.Guna2Button();
             this.car_edit = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.userdisplay = new System.Windows.Forms.Label();
+            this.home_button = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.userdisplay = new System.Windows.Forms.Label();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
@@ -167,7 +167,7 @@
             this.guna2Panel1.Controls.Add(this.customer_edit);
             this.guna2Panel1.Controls.Add(this.car_edit);
             this.guna2Panel1.Controls.Add(this.invoice_button);
-            this.guna2Panel1.Controls.Add(this.guna2Button1);
+            this.guna2Panel1.Controls.Add(this.home_button);
             this.guna2Panel1.Controls.Add(this.reservation_button);
             this.guna2Panel1.Controls.Add(this.guna2CirclePictureBox1);
             this.guna2Panel1.CustomizableEdges = customizableEdges24;
@@ -256,6 +256,7 @@
             this.reservation_edit.Text = "Rezervasyon İşlemleri";
             this.reservation_edit.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.reservation_edit.TextOffset = new System.Drawing.Point(5, 0);
+            this.reservation_edit.Click += new System.EventHandler(this.reservation_edit_Click);
             // 
             // customer_edit
             // 
@@ -305,61 +306,63 @@
             this.car_edit.TextOffset = new System.Drawing.Point(5, 0);
             this.car_edit.Click += new System.EventHandler(this.car_edit_Click);
             // 
-            // guna2Button1
+            // home_button
             // 
-            this.guna2Button1.CustomizableEdges = customizableEdges19;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(187)))), ((int)(((byte)(229)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Image = global::Araba_Kiralama.Resource1.dashboard1;
-            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.ImageOffset = new System.Drawing.Point(5, 0);
-            this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button1.Location = new System.Drawing.Point(0, 100);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            this.guna2Button1.Size = new System.Drawing.Size(244, 60);
-            this.guna2Button1.TabIndex = 11;
-            this.guna2Button1.Text = "Anasayfa";
-            this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.TextOffset = new System.Drawing.Point(5, 0);
-            this.guna2Button1.Click += new System.EventHandler(this.reservation_button_Click);
-            // 
-            // guna2Panel4
-            // 
-            this.guna2Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(171)))), ((int)(((byte)(220)))));
-            this.guna2Panel4.Controls.Add(this.userdisplay);
-            this.guna2Panel4.Controls.Add(this.label1);
-            this.guna2Panel4.CustomizableEdges = customizableEdges1;
-            this.guna2Panel4.Location = new System.Drawing.Point(243, -1);
-            this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            this.guna2Panel4.Size = new System.Drawing.Size(768, 81);
-            this.guna2Panel4.TabIndex = 5;
-            // 
-            // userdisplay
-            // 
-            this.userdisplay.AutoSize = true;
-            this.userdisplay.ForeColor = System.Drawing.Color.White;
-            this.userdisplay.Location = new System.Drawing.Point(666, 34);
-            this.userdisplay.Name = "userdisplay";
-            this.userdisplay.Size = new System.Drawing.Size(62, 15);
-            this.userdisplay.TabIndex = 0;
-            this.userdisplay.Text = "UserName";
+            this.home_button.CustomizableEdges = customizableEdges19;
+            this.home_button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.home_button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.home_button.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.home_button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.home_button.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(187)))), ((int)(((byte)(229)))));
+            this.home_button.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.home_button.ForeColor = System.Drawing.Color.White;
+            this.home_button.Image = global::Araba_Kiralama.Resource1.dashboard1;
+            this.home_button.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.home_button.ImageOffset = new System.Drawing.Point(5, 0);
+            this.home_button.ImageSize = new System.Drawing.Size(30, 30);
+            this.home_button.Location = new System.Drawing.Point(0, 100);
+            this.home_button.Name = "home_button";
+            this.home_button.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            this.home_button.Size = new System.Drawing.Size(244, 60);
+            this.home_button.TabIndex = 11;
+            this.home_button.Text = "Rezervasyonlarım";
+            this.home_button.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.home_button.TextOffset = new System.Drawing.Point(5, 0);
+            this.home_button.Click += new System.EventHandler(this.home_button_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(601, 34);
+            this.label1.Location = new System.Drawing.Point(25, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hoşgeldiniz";
+            // 
+            // userdisplay
+            // 
+            this.userdisplay.AutoSize = true;
+            this.userdisplay.ForeColor = System.Drawing.Color.White;
+            this.userdisplay.Location = new System.Drawing.Point(97, 33);
+            this.userdisplay.Name = "userdisplay";
+            this.userdisplay.Size = new System.Drawing.Size(62, 15);
+            this.userdisplay.TabIndex = 0;
+            this.userdisplay.Text = "UserName";
+            // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(187)))), ((int)(((byte)(229)))));
+            this.guna2Panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.guna2Panel4.Controls.Add(this.userdisplay);
+            this.guna2Panel4.Controls.Add(this.label1);
+            this.guna2Panel4.CustomizableEdges = customizableEdges1;
+            this.guna2Panel4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.guna2Panel4.Location = new System.Drawing.Point(243, -1);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            this.guna2Panel4.Size = new System.Drawing.Size(768, 81);
+            this.guna2Panel4.TabIndex = 5;
             // 
             // Home
             // 
@@ -394,10 +397,10 @@
         private Guna.UI2.WinForms.Guna2Button customer_edit;
         private Guna.UI2.WinForms.Guna2Button invoice_edit;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2Button home_button;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
         private Label userdisplay;
         private Label label1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
     }
 }

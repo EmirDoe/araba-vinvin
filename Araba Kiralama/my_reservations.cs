@@ -16,6 +16,10 @@ namespace Araba_Kiralama
         public my_reservations()
         {
             InitializeComponent();
+            
+        }
+        private void my_reservations_Load(object sender, EventArgs e)
+        {
             active_reservation();
             past_reservation();
         }
@@ -72,10 +76,6 @@ namespace Araba_Kiralama
             datagrid.Columns["date"].HeaderText = "Tarih";
 
             cnn.Close();
-        }
-        private void my_reservations_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void active_reservation()

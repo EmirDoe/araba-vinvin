@@ -38,7 +38,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            this.arama_textbox = new System.Windows.Forms.TextBox();
+            this.tc_textbox = new System.Windows.Forms.TextBox();
             this.invoice_date = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
             this.reservation_textbox = new System.Windows.Forms.TextBox();
@@ -64,13 +64,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // arama_textbox
+            // tc_textbox
             // 
-            this.arama_textbox.Location = new System.Drawing.Point(571, 58);
-            this.arama_textbox.Name = "arama_textbox";
-            this.arama_textbox.Size = new System.Drawing.Size(173, 23);
-            this.arama_textbox.TabIndex = 60;
-            this.arama_textbox.TextChanged += new System.EventHandler(this.arama_textbox_TextChanged);
+            this.tc_textbox.Location = new System.Drawing.Point(571, 58);
+            this.tc_textbox.Name = "tc_textbox";
+            this.tc_textbox.Size = new System.Drawing.Size(173, 23);
+            this.tc_textbox.TabIndex = 60;
+            this.tc_textbox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // invoice_date
             // 
@@ -327,6 +327,7 @@
             this.guna2Button3.Size = new System.Drawing.Size(76, 34);
             this.guna2Button3.TabIndex = 68;
             this.guna2Button3.Text = "PDF Yazdır";
+            this.guna2Button3.Click += new System.EventHandler(this.btn_print2pdf_Click);
             // 
             // cmb_status
             // 
@@ -356,7 +357,7 @@
             this.Controls.Add(this.tax_textbox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.arama_textbox);
+            this.Controls.Add(this.tc_textbox);
             this.Controls.Add(this.invoice_date);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.reservation_textbox);
@@ -382,7 +383,7 @@
         }
 
         #endregion
-        private TextBox arama_textbox;
+        private TextBox tc_textbox;
         private DateTimePicker invoice_date;
         private Label label8;
         private TextBox reservation_textbox;

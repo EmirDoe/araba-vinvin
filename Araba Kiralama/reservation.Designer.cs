@@ -109,7 +109,6 @@
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(744, 318);
             this.dataGridView1.TabIndex = 8;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
             // guna2BorderlessForm1
@@ -295,6 +294,7 @@
             this.rentduration_textbox.Name = "rentduration_textbox";
             this.rentduration_textbox.Size = new System.Drawing.Size(75, 23);
             this.rentduration_textbox.TabIndex = 40;
+            this.rentduration_textbox.TextChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
             // label11
             // 

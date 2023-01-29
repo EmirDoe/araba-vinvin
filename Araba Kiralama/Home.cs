@@ -33,12 +33,6 @@ namespace Araba_Kiralama
         
         private void Home_Load(object sender, EventArgs e)
         {
-            PrivateFontCollection Font = new PrivateFontCollection();
-            Font.AddFontFile("Inter-ExtraBold.ttf");
-            foreach (Control item in guna2Panel1.Controls)
-            {
-                item.Font = new Font(Font.Families[0], 11, FontStyle.Regular);
-            }
             userdisplay.Text = Login.Session;
         }
        
@@ -61,23 +55,11 @@ namespace Araba_Kiralama
         {
             OpenChildForm(new reservation());
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            customer_edit listele = new customer_edit();
-            //muster_guncelleme listele = new muster_guncelleme();
-            listele.Show();
-        }
-
-        private void btn_faturaduzenleme_Click(object sender, EventArgs e)
-        {
-            invoice_edit listele = new invoice_edit();
-            //muster_guncelleme listele = new muster_guncelleme();
-            listele.Show();
-        }
-
-
         private void reservation_button_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new reservation());
+        }    
+        private void home_button_Click(object sender, EventArgs e)
         {
             OpenChildForm(new my_reservations());
         }
@@ -105,6 +87,11 @@ namespace Araba_Kiralama
         private void customer_edit_Click(object sender, EventArgs e)
         {
             OpenChildForm(new customer_edit());
+        }
+
+        private void reservation_edit_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new reservation_edit());
         }
     }
 }

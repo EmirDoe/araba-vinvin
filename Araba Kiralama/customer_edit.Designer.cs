@@ -26,6 +26,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -78,7 +79,6 @@
             this.username_textbox.Name = "username_textbox";
             this.username_textbox.Size = new System.Drawing.Size(125, 23);
             this.username_textbox.TabIndex = 7;
-            this.username_textbox.TextChanged += new System.EventHandler(this.user_textbox_TextChanged);
             // 
             // label9
             // 
@@ -87,9 +87,9 @@
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(283, 99);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(99, 15);
+            this.label9.Size = new System.Drawing.Size(45, 15);
             this.label9.TabIndex = 8;
-            this.label9.Text = "Telefon Numarası";
+            this.label9.Text = "Telefon";
             // 
             // label12
             // 
@@ -162,7 +162,6 @@
             this.tc_textbox.Name = "tc_textbox";
             this.tc_textbox.Size = new System.Drawing.Size(125, 23);
             this.tc_textbox.TabIndex = 14;
-            this.tc_textbox.TextChanged += new System.EventHandler(this.tc_text_TextChanged);
             // 
             // guna2BorderlessForm1
             // 
@@ -194,19 +193,27 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.ColumnHeadersHeight = 18;
-            this.dataGridView1.EnableHeadersVisualStyles = false;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 223);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dataGridView1.EnableHeadersVisualStyles = false;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 220);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(744, 318);
@@ -215,17 +222,18 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(574, 66);
+            this.textBox1.Location = new System.Drawing.Point(591, 66);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(173, 23);
+            this.textBox1.Size = new System.Drawing.Size(125, 23);
             this.textBox1.TabIndex = 70;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(529, 70);
+            this.label2.Location = new System.Drawing.Point(532, 70);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(39, 15);
             this.label2.TabIndex = 69;
@@ -245,9 +253,10 @@
             this.delete_button.Location = new System.Drawing.Point(654, 109);
             this.delete_button.Name = "delete_button";
             this.delete_button.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            this.delete_button.Size = new System.Drawing.Size(76, 34);
+            this.delete_button.Size = new System.Drawing.Size(88, 34);
             this.delete_button.TabIndex = 71;
             this.delete_button.Text = "Sil";
+            this.delete_button.Click += new System.EventHandler(this.delete_button_Click);
             // 
             // update_button
             // 
@@ -260,10 +269,10 @@
             this.update_button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.update_button.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.update_button.ForeColor = System.Drawing.Color.White;
-            this.update_button.Location = new System.Drawing.Point(572, 109);
+            this.update_button.Location = new System.Drawing.Point(561, 109);
             this.update_button.Name = "update_button";
             this.update_button.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            this.update_button.Size = new System.Drawing.Size(76, 34);
+            this.update_button.Size = new System.Drawing.Size(88, 34);
             this.update_button.TabIndex = 72;
             this.update_button.Text = "Güncelle";
             this.update_button.Click += new System.EventHandler(this.update_button_Click);

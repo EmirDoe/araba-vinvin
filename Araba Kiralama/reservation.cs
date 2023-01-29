@@ -128,7 +128,7 @@ namespace Araba_Kiralama
             string connetionString;
             connetionString = "Server=localhost;Database=master; Trusted_Connection=True;";
 
-            string query = "SELECT plate, km, brand, model, year, color, type, hp, gear, fuel, cost_per_day FROM car ";
+            string query = "SELECT plate, km, brand, model, year, color, type, hp, gear, fuel, cost_per_day FROM car WHERE (availability =  1) ";
 
 
             if (QueryList.Count != 0)
@@ -220,13 +220,14 @@ namespace Araba_Kiralama
             string connetionString;
             connetionString = "Server=localhost;Database=master; Trusted_Connection=True;";
 
+            string tcno = FindUserTcNoByUsername(username);
             string userquery = "UPDATE [user] SET rented_car = '"+ plate +"' WHERE user_name = '" + username + "' ";
-            string carquery = "UPDATE car SET availability = 0 WHERE plate = '" + plate + "' ";
+            string carquery = "UPDATE car SET availability = 0, rented_by = '" + tcno +  "' WHERE plate = '" + plate + "' ";
 
             SqlConnection con = new SqlConnection(connetionString);
           
             SqlCommand cmd = new SqlCommand(userquery, con);
-            SqlCommand cmd2 = new SqlCommand(userquery, con);
+            SqlCommand cmd2 = new SqlCommand(carquery, con);
             
             con.Open();
             cmd.ExecuteNonQuery();
@@ -276,35 +277,6 @@ namespace Araba_Kiralama
             con.Close();
 
         }
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void gear_label_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
-        }
 
         bool IsDigitsOnly(string str)
         {
@@ -317,39 +289,11 @@ namespace Araba_Kiralama
             return true;
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-
-        }
-
-
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void km_textbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button4_Click(object sender, EventArgs e)
         {
             ClearFilters();
             var empty = new Dictionary<string, string>();
             PopulateDataGridView(empty);
-
-        }
-
-        private void button1_Click_2(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
 
         }
 
@@ -446,24 +390,9 @@ namespace Araba_Kiralama
 
             }
 
-            StringBuilder sb = new StringBuilder();
-
-            foreach (var item in queries)
-            {
-                sb.AppendFormat("{0} - {1}{2}", item.Key, item.Value, Environment.NewLine);
-            }
-
-            string result = sb.ToString().TrimEnd();//when converting to string we also want to trim the redundant new line at the very end
-
-            //MessageBox.Show(result);
-
             PopulateDataGridView(queries);
         }
 
-        private void cmb_list_Click(object sender, EventArgs e)
-        {
-
-        }
         private void clean_Button_Click(object sender, EventArgs e)
         {
             ClearFilters();
@@ -471,15 +400,6 @@ namespace Araba_Kiralama
             PopulateDataGridView(empty);
         }
 
-        private void button4_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click_2(object sender, EventArgs e)
-        {
-
-        }
 
         private void rent_button_Click(object sender, EventArgs e)
         {
@@ -489,6 +409,8 @@ namespace Araba_Kiralama
             {
                 RentCar(Session, plate_textbox.Text);
                 CreateReservation(Session, plate_textbox.Text, rentduration_textbox.Text);
+                var empty = new Dictionary<string, string>();
+                PopulateDataGridView(empty);
                 MessageBox.Show("Araç Kiralandı");
             }
             else

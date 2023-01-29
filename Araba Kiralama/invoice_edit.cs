@@ -25,7 +25,15 @@ namespace Araba_Kiralama
         {
             InitializeComponent();
         }
-
+        public DataTable list(SqlDataAdapter adtr, string query)
+        {
+            SqlConnection conectionString = new SqlConnection("Server=localhost;Database=master; Trusted_Connection=True;");
+            DataTable dt = new DataTable();
+            adtr = new SqlDataAdapter(query, conectionString);
+            adtr.Fill(dt);
+            conectionString.Close();
+            return dt;
+        }
         private void PopulateGridView()
         {
             SqlConnection cnn;
@@ -72,18 +80,31 @@ namespace Araba_Kiralama
 
             if (plate_textbox.Text != string.Empty && invoice_textbox.Text != string.Empty && tc_text.Text != string.Empty && invoice_date.Text != string.Empty && total_textbox.Text != string.Empty && reservation_textbox.Text != string.Empty && cmb_status.Text != string.Empty && tax_textbox.Text != string.Empty)
             {
-                int status = 0;
-                if(cmb_status.SelectedItem == "Ödendi")
+                if(tax_textbox.Text.IndexOf(',') != -1)
                 {
-                     status = 1;
+                    tax_textbox.Text = tax_textbox.Text.Replace(',', '.');
+                }
+                int status = 0;
+                if (cmb_status.SelectedItem == "Ödendi")
+                {
+                    status = 1;
                 }
                 else
                 {
-                     status = 0;
+                    status = 0;
                 }
-                cnn.Close();
-                cnn.Open();
-                cmd = new SqlCommand("UPDATE invoice SET car_plate = '" + plate_textbox.Text + "', tc_no = '" + tc_text.Text + "', date = '" + invoice_date.Value.ToString() + "', total = '" + total_textbox.Text + "', reservation_id = '" + reservation_textbox.Text + "', tax = '" + tax_textbox.Text + "', status = '" + status + "' WHERE id = '" + invoice_textbox.Text + "' ", cnn);
+                    cnn.Open();
+
+                    cmd = new SqlCommand("SELECT tax FROM invoice WHERE id = '" + invoice_textbox.Text + "' ", cnn);
+
+                string tax = cmd.ExecuteScalar().ToString();
+                cmd = new SqlCommand("SELECT total FROM invoice WHERE id = '" + invoice_textbox.Text + "' ", cnn);
+                string total = cmd.ExecuteScalar().ToString();
+                string taxfloat = ("1." + tax);
+
+                int newtotal = Convert.ToInt32((Convert.ToDouble(total) / Convert.ToDouble(taxfloat)) * Convert.ToDouble("1." + tax_textbox.Text));
+                
+                cmd = new SqlCommand("UPDATE invoice SET car_plate = '" + plate_textbox.Text + "', tc_no = '" + tc_text.Text + "', date = '" + invoice_date.Value.ToString() + "', total = '" + newtotal + "', reservation_id = '" + reservation_textbox.Text + "', tax = '" + tax_textbox.Text + "', status = '" + status + "' WHERE id = '" + invoice_textbox.Text + "' ", cnn);
                 cmd.ExecuteNonQuery();
                 PopulateGridView();
                 MessageBox.Show(" Fatura başarıyla güncellendi.", "Başarılı", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -139,7 +160,7 @@ namespace Araba_Kiralama
                 plate_textbox.Text = plate;
                 invoice_textbox.Text = invoice;
                 tc_text.Text = tc;
-                invoice_date.Text = date;
+                //invoice_date.Text = date;
                 total_textbox.Text = total;
                 tax_textbox.Text = tax;
                 reservation_textbox.Text = reservation;
@@ -156,15 +177,15 @@ namespace Araba_Kiralama
                 reservation_textbox.Text = "";
             }
         }
-        
-        private void arama_textbox_TextChanged(object sender, EventArgs e)
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            string cumle = "select id,tc_no,car_plate,total,date,status,tax,reservation_id from [invoice] WHERE tc_no like '%" + arama_textbox.Text + "%'";
+            string cmd = "select tc_no,user_name,password,full_name,birth_date,phone_number from [user] WHERE (user_role = 0) AND tc_no like '%" + tc_textbox.Text + "%'";
             SqlDataAdapter adtr2 = new SqlDataAdapter();
-            //dataGridView1.DataSource = listele(adtr2, cumle);
+            dataGridView1.DataSource = list(adtr2, cmd);
         }
 
-       
+
         private void btn_print2pdf_Click(object sender, EventArgs e)
         {
             if (dataGridView1.Rows.Count > 0)

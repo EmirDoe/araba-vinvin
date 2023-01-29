@@ -111,7 +111,7 @@ namespace Araba_Kiralama
                 {
                     cnn.Close();
                     cnn.Open();
-                    cmd = new SqlCommand("insert into car (plate, km, brand, model, year, color, type, hp, gear, fuel, cost_per_day) values ('" + plate_textbox.Text + "', '" + km_textbox.Text + "',  '" + cmb_brand.Text + "', '" + model_textbox.Text + "', '" + year_textbox.Text + "', '" + cmb_color.Text + "', '" + cmb_type.Text + "', '" + hp_textbox.Text + "', '" + cmb_gear.Text + "', '" + cmb_fuel.Text + "', '" + costperday_textbox.Text + "')", cnn);
+                    cmd = new SqlCommand("insert into car ( plate, km, brand, model, year, color, type, hp, gear, fuel, cost_per_day) values ('" + plate_textbox.Text + "', '" + km_textbox.Text + "',  '" + cmb_brand.Text + "', '" + model_textbox.Text + "', '" + year_textbox.Text + "', '" + cmb_color.Text + "', '" + cmb_type.Text + "', '" + hp_textbox.Text + "', '" + cmb_gear.Text + "', '" + cmb_fuel.Text + "', '" + costperday_textbox.Text + "')", cnn);
                     cmd.ExecuteNonQuery();
                     foreach (Control item in Controls) if (item is TextBox) item.Text = "";
                     PopulateGridView();
